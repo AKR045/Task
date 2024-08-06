@@ -1,0 +1,229 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+nav{
+    background-color: #1c1c1c;
+    padding: 25px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    
+}
+
+nav ul li {
+    display:inline-block ;
+    margin: 0 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.left {
+    position: relative;
+    float: left;
+    bottom: 11px;
+    left: 100px;
+}
+.right{
+    position: relative;
+    right: 100px;
+}
+
+/* ------------------------------------------ */
+.GetStart{
+    background-color: #0c0c0c;
+    height: 600px;
+}
+.GetStart h1{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 50px 0;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    line-height: 2;
+    font-size: 36px;
+    letter-spacing: 3px;
+    
+}
+.GetStart h1 span{
+    font-weight: 500;
+}
+#button{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 150px;
+    top: 400px;
+    font-weight: 600;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+}
+/* ----------------------------------------------------- */
+
+.Sec2{
+    background-color: #fff;
+    height: 500px;
+    margin-left: 150px;
+}
+.Sec2 h2 {
+    padding: 50px 0;
+    color: #e5474b;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    
+}
+.Sec2 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    width: 74%;
+}
+#button2{
+    border: 2px solid #e5474b;
+    background: transparent;
+    color: #e5474b;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    margin: 50px 0;
+    font-weight: 600;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+
+}
+/* ----------------------------------------------- */
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+.flex .watch{
+    background-color: #fff7f7;
+    
+}
+.flex .printer{
+    background-color: #eeeeee;
+}
+
+.flex .watch h3{
+    padding: 50px 0;
+    color: #e5474b;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    
+}
+.flex .watch p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    width: 50%;
+    margin-left: 150px;
+    margin-bottom: 50px;
+
+}
+.flex .watch img{
+    margin-left: 150px;
+}
+
+
+.flex .printer h3{
+    padding: 50px 0;
+    color: #e5474b;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+.flex .printer p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    width: 50%;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.flex .printer img{
+    margin-left: 150px;
+}
+/* -------------------------------------------------------------- */
+
+.flex2{
+    display: flex;
+    justify-content: center;
+}
+.flex2 .lap{
+    margin-left: 150px;
+}
+.flex2 .gem{
+    margin-left: 150px;
+}
+.flex2 .top{
+    margin-left: 150px;
+}
+.flex2 i{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+.flex2 h4{
+    padding: 50px 0;
+    color: #e5474b;
+    font-size: 27px;
+    text-transform: uppercase;
+   
+}
+.flex2 p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    width: 70%;
+   
+}
+.flex2 button {
+    border: 2px solid #e5474b;
+    background: transparent;
+    color: #e5474b;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    margin: 50px 0;
+    font-weight: 600;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+button:hover{
+    cursor: pointer;
+    /* background-color: #ffffff; */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+/* ------------------------------------------------------------------- */
+footer{
+    background-color: #e5474b;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+    color: #fff;
+}
