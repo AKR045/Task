@@ -1,23 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Simple Markers</title>
-<!-- 
-    <link rel="stylesheet" type="text/css" href="/CSS/map.css" /> -->
-    <link rel="stylesheet" href="../CSS/map.css">
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/map.css" />
+    <title>Document</title>
+  </head>
+  <body>
     <header>
-        <section class="drop">
-            <label for="">Select Country</label>
-            <select name="country" id="select">
-                <option value="">Egypt</option>
-                <option value="">German</option>
-                <option value="">England</option>
-            </select>
-        </section>
+      <section class="drop">
+        <label for="">Select Country</label>
+        <select name="country" id="select">
+          <option value="Egypt">Egypt</option>
+          <option value="German">German</option>
+          <option value="England">England</option>
+        </select>
+      </section>
     </header>
     <div id="map"></div>
-    
+
     <!-- 
         The `defer` attribute causes the script to execute after the full HTML
         document has been parsed. For non-blocking uses, avoiding race conditions,
@@ -25,10 +26,10 @@
         https://developers.google.com/maps/documentation/javascript/load-maps-js-api
         for more information.
         -->
-        <script src="../JS/map.js"></script>
-        <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-        defer
-        ></script>
+    <script src="../JS/map.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
   </body>
 </html>
